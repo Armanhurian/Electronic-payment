@@ -1,0 +1,1171 @@
+/*reseter*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all 0.35s ease;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+@font-face {
+    font-family: 'Dana';
+    font-weight: normal;
+    font-style: normal;
+    src: local('DanaReqular'), url('../font-awesome/dana demibold/dana\ demibold.woff') format('woff');
+}
+
+.container {
+    max-width: 1440px !important;
+}
+
+/* header*/
+header {}
+
+header nav {}
+
+header nav a {}
+
+header nav a span {
+    color: #858585;
+    font-family: 'Dana';
+}
+
+header nav a img {
+    /* margin: -25px 0; */
+}
+
+.navbar-brand {
+    font-size: 0.8rem !important;
+}
+
+/* main*/
+main {
+    font-family: 'Dana';
+}
+
+main section {
+    background-color: #F59602;
+    padding: 16px 16px 16px 16px;
+    border-radius: 24px;
+}
+
+/* section :part of right*/
+main section article:nth-child(1) {
+    text-align: center;
+}
+
+main section article:nth-child(1) h3 {
+    font-size: 12px;
+}
+
+main section article:nth-child(2) h3 {
+    font-size: 12px;
+}
+
+main section article:nth-child(2) {
+    margin: 30px 0;
+    text-align: center;
+    margin-bottom: 8.7rem;
+}
+
+main section article #my-card-form {}
+
+main section article #my-card-form .card1,
+main section article #my-card-form .card2{
+    border-radius: 15px 15px 0.25rem 0.25rem !important;
+    height: 42px;
+    background-color: #fff;
+    padding: .375rem .75rem;
+    color: #858585;
+}
+
+main section article #my-card-form input[type="button"] {
+    border-radius: 15px 15px 0.25rem 0.25rem !important;
+    width: 100%;
+    font-size: 14px;
+    height: 42px;
+}
+
+main section article .box-price {
+    border-radius: 16px;
+    overflow: auto;
+    padding: 15px 5px;
+}
+
+main section article .box-price-lable {
+    float: right;
+}
+
+main section article .box-price-lable h5 {
+    font-size: 10px;
+    padding: 10px 0;
+}
+
+main section article .box-price-number {
+    float: left;
+}
+
+main section article .box-price-number h3 {
+    font-size: 12px;
+}
+
+main section article .box-price-number h5 {
+    font-size: 9px;
+}
+
+main section article .box-irancel {
+    border-radius: 16px;
+}
+
+main section article .box-irancel-img {}
+
+main section article .box-irancel-img img {}
+
+main section article .box-irancel table {}
+
+main section article .box-irancel table tr {}
+
+main section article .box-irancel table th {
+    font-size: 12px;
+    border-top: none !important;
+    text-align: left;
+}
+
+main section article .box-irancel table td {
+    font-size: 10px;
+    vertical-align: middle !important;
+    border-top: none !important;
+}
+
+main section article:nth-child(3) {}
+
+main section article:nth-child(3) h3 {
+    font-size: 10px;
+    float: right;
+    padding-right: 25px;
+    background-size: 15px;
+}
+
+main section article:nth-child(3) h3::before {
+    content: '\f025';
+    font-family: FontAwesome;
+    position: absolute;
+    color: black;
+    font-size: 19px;
+    left: 90%;
+    top: 95%;
+}
+
+main section article:nth-child(3) h5 {
+    font-size: 12px;
+    float: left;
+}
+
+/* section :part of left*/
+main section .main-form {
+    border-radius: 24px;
+    /* padding: 18px 15px; */
+    padding: 35px 15px;
+}
+
+main section #payment-form,
+main section .main-form {
+    background-color: #FFF;
+}
+
+#payment-form .time-lable {
+   /* width: 40%;
+    display: inline-block; */
+    width: auto;
+    padding: 8px 0px;
+    font-size: 12px;
+    float:right;
+    transform: none;
+}
+
+#payment-form .time-span {
+    /* width: 49%; */
+    /* display: inline-block; */
+}
+#payment-form .time-span span {
+    width: 28px;
+    height: 40px;
+    display: inline-block;
+    padding: 10px;
+    background-color: #FAFAFA;
+    border-radius: 8px;
+}
+
+#payment-form label {
+    display: block;
+    text-align: right;
+}
+
+#payment-form .sub-span {
+    color: #858585;
+    font-size: 14px;
+    text-align: right;
+    display: block;
+    transform: translateY(-10px);
+}
+
+#payment-form input[type="text"] {
+    border: 2px solid #EDEDED;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: -10px 0px;
+    color: #858585;
+}
+
+#payment-form input[type="button"] {
+    padding: 5px 0;
+    border-radius: 10px;
+}
+
+#payment-form input[type="text"]:hover {
+    box-shadow: 0px 0px 5px 1px #f59602;
+}
+
+#payment-form .row:nth-child(2) input.payment {
+    width: 100%;
+    text-align: center;
+}
+
+#payment-form .row:nth-child(3) input.payment {
+    width: 100%;
+    text-align: center;
+}
+
+#payment-form .row:nth-child(4) input.payment {
+    width: 49%;
+    text-align: center;
+    margin: 5px 0;
+}
+
+#payment-form .row:nth-child(5) input.payment {
+    width: 100%;
+    text-align: center;
+}
+
+#payment-form .row:nth-child(6) input.payment {
+    width: 49%;
+    /* text-align: center; */
+}
+
+#payment-form .row:nth-child(6) input[type="button"] {
+    width: 49%;
+    text-align: center;
+}
+
+#payment-form .credit-card-span{
+    /* content: "\f09d";
+    font-family: FontAwesome;
+    position: absolute;
+    color: #F59602;
+    font-size: 24px;
+    right: 83%;
+    top: 16%; */
+    cursor: pointer;
+    background-image: url('../images/Credit\ Cards.svg');
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+}
+/* credit drop down */
+div.credit-container{
+    width: 304px;
+    background-color: #FAC979;
+    padding: 0px 0 1px 0px;
+    position: absolute;
+    z-index: 77;
+    transform: translateY(11px);
+    border-radius: 8px;
+    display: none;
+  }
+  div.credit-item{
+      background-color: white;
+      width: 300px;
+      height: 40px;
+      border-radius: 12px;
+      margin: 2px;
+  }
+
+#payment-form .keyboard-span {
+    cursor: pointer; 
+    background-image: url('../images/keyboard.svg');
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+}
+#payment-form .captcha-img {
+    cursor: pointer; 
+    background-image: url('../images/Okta-Captcha\ 1.png');
+    background-repeat: no-repeat;
+    background-position: 30% 50%;
+    background-size: contain;
+}
+
+#payment-form .refresh-span::after {
+    content: "\f021";
+    font-family: FontAwesome;
+    position: absolute;
+    color: #F59602;
+    font-size: 24px;
+    top: 11%;
+    left: 10%;
+    cursor: pointer;
+}
+
+#payment-form .board-span {
+    cursor: pointer; 
+    background-image: url('../images/keyboard.svg');
+    background-repeat: no-repeat;
+    background-position: 5% 50%;
+}
+
+#payment-form .mail-phone input.payment {
+    width: 100%;
+    text-align: center;
+}
+
+#payment-form div.send-email {
+    /* width: 100%; */
+    /* margin-top: 15px; */
+    padding: 5px 10px;
+    background-color: white;
+    text-align: right;
+    border: 2px solid #EDEDED;
+    border-radius: 10px;
+    margin: 0px 0px;
+    color: #858585;
+}
+
+#payment-form .plus-span::after {
+    content: "\f067";
+    font-family: FontAwesome;
+    position: absolute;
+    color: #F59602;
+    font-size: 24px;
+    left: 4%;
+    top: 33%;
+    cursor: pointer;
+}
+
+#payment-form .save-number {
+    transform: translateY(0px);
+}
+#payment-form label.save-number-lable {
+    /* display: inline-block; */
+    cursor: pointer;
+    position: relative;
+    padding-left: 25px;
+    margin-right: 15px;
+    font-size: 11px;
+    left: -5%;
+}
+#payment-form label.save-number-lable:before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    position: absolute;
+    left: 100%;
+    bottom: 1px;
+    border: 2px solid #f59602;
+    margin: 0 5px;
+}
+#payment-form input[type=checkbox] {
+    display: none;
+}
+#payment-form  .checkbox label.save-number-lable:before {
+    border-radius: 3px;
+}
+#payment-form input[type=checkbox]:checked + label.save-number-lable:before {
+    content: "\2714";
+    color: #f59602;
+    text-align: center;
+    line-height: 16px;
+}
+#payment-form article.save-number button {
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    width: 100px;
+}
+#payment-form article.save-number span {
+    background-color: #F5F5F5;
+    width: 110px;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 -2px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+/* side bar*/
+main .col-md-3 {
+    padding: 10px 10px;
+}
+
+.accordion .card {
+    border: none;
+    margin: 8px 0px;
+}
+
+.accordion .card-header {
+    background-color: #FAFAFA;
+    border-bottom: none;
+}
+
+.accordion .card-body {
+    background-color: #FAFAFA;
+}
+
+.accordion .card-header button {
+    font-size: 14px;
+    color: #F59602;
+}
+
+.accordion .card-body ul li {
+    text-align: right;
+    font-size: 12px;
+    line-height: 1.8;
+}
+
+.accordion .card-body ol li {
+    font-family: 'Dana';
+    list-style: arabic-indic !important;
+}
+
+.fa-chevron-down:before {
+    content: "\f078";
+    /* position: absolute; */
+    display: inline-block;
+    background-color: #F596021A;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 24px;
+}
+
+.accordion #headingOne .fa-chevron-down:before {
+    /* top: 34%; */
+    transform: translateX(-50px);
+}
+
+.accordion #headingTwo .fa-chevron-down:before {
+    /* bottom: 26%; */
+    transform: translateX(-91px);
+}
+
+.accordion #headingThree .fa-chevron-down:before {
+    /* bottom: 30%; */
+    transform: translateX(-91px);
+}
+
+/* modal*/
+#MoreCard  {
+    font-family: 'Dana';
+}
+#MoreCard h5.modal-title {
+    font-size: 14px;
+}
+
+#MoreCard button.approve {
+    background-color: #F59602;
+}
+
+#MoreCard button.ignore {
+    background-color: white;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    width: 133px;
+}
+
+#MoreCard input {
+    border-radius: 15px 15px 0.25rem 0.25rem !important;
+}
+
+#MoreCard input[type="text"] {}
+
+.modal-dialog {
+    max-width: 324px !important;
+}
+
+
+/*keypad*/
+
+.keypad,.keypad1 {
+    width: 130px;
+    height: 165px;
+    border-radius: 16px;
+    border: 1px solid #F2F2F2;
+    box-shadow: 0px 1px 6px 4px #F2F2F2;
+    background-color: #FFFFFF;
+    position: absolute;
+    
+}
+.keypad{
+    top: 38.5%;
+    left: 29%;
+}
+.keypad1{
+    top: 69%;
+    left: 39%;
+}
+
+/* .keypad-head {
+    width: 120px;
+    height: 24px;
+    margin: 0 auto;
+} */
+
+.keypad-contaner {
+    width: 120px;
+    height: 160px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.keypad-contaner span.remove {
+    background-color: #3B76FE;
+}
+
+.keypad-contaner span:last-child {
+    background-color: #F59602;
+}
+
+.keypad-btn {
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    display: inline-block;
+    background-color: #F2F2F2;
+    line-height: 32px;
+    margin: 2px 0px;
+}
+
+/*keypad*/
+
+
+
+
+.message {
+    padding: 16px;
+    margin-bottom: 30px;
+    position: relative;
+    line-height: normal;
+    font-weight: 500;
+    border-radius: 12px;
+    border: 1px solid #f2f3f7;
+    background: #f9fafc;
+}
+.message.danger {
+    padding-right: 48px;
+    color: #f63a53;
+    border: 1px solid #fdced4;
+    background: #feeff2;
+}
+.message.danger::before{
+    position: absolute;
+    top: 50%;
+    right: 14px;
+    content: "";
+    color: #f63a53;
+    transform: translateY(-50%);
+    border-radius: 10px;
+}
+/* responsive=>mobile first */
+@media screen and (max-width:1200px){
+    .keypad{
+        top: 40%;
+        left: 29%;
+    }
+}
+@media screen and (max-width:1200px){
+    .keypad{
+        top: 40%;
+        left: 29%;
+    }
+}
+@media screen and (max-width:1027px){
+    .keypad1 {
+        top: 73%;
+        left: 39%;
+    }
+}
+@media screen and (max-width:990px){
+    .keypad{
+        top: 37.5%;
+        left: 5%;
+    }
+    .keypad1{
+        top: 68%;
+        left: 21%;
+    }
+}
+@media screen and (max-width:911px){
+    
+    .keypad1{
+        top: 71%;
+        left: 21%;
+    }
+}
+@media screen and (max-width:827px){
+    .keypad1{
+        top: 74%;
+        left: 21%;
+    }
+}   
+@media screen and (max-width:773px){
+    .keypad{
+        /*  */
+        top: 114%;
+        left: 7%;
+    }
+    .keypad1{
+        top: 159%;
+        left: 49%;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    
+    /* ------header------- */
+    header {
+        background-color: #f59602;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    header nav {
+        background-color: white;
+        margin: 0 -15px;
+    }
+
+    header .box-price-lable {
+        float: right;
+    }
+
+    header .box-price-lable h5 {
+        font-size: 12px;
+        margin: 24px 0px;
+        font-weight: bold;
+    }
+
+    header .box-price-number {
+        float: left;
+    }
+
+    header .box-price {
+        display: block;
+        padding: 15px 5px;
+        overflow: auto;
+        background-color: #f59602;
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    header .box-price-number {
+        overflow: auto;
+    }
+
+    header .box-price-img {
+        float: left;
+    }
+
+    header .box-price-adad {
+        float: right;
+        margin: 15px 10px;
+        border-radius: 40px;
+    }
+
+    header .box-price-adad h3 {
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    header .box-price-adad h5 {
+        font-size: 10px;
+    }
+
+    /* -=section/part right---- */
+    main section {
+        background-color: #FFFFFF;
+    }
+
+    main section article .box-price {
+        display: none;
+    }
+
+    main section article .box-price-title {
+        display: none;
+    }
+
+    article .box-irancel-sadad {
+        display: block;
+        margin: 0 auto;
+    }
+
+    main section article:nth-child(1) {
+        display: none;
+    }
+
+    main section article:nth-child(3) {
+        display: none;
+    }
+
+    /* ------form------- */
+    #payment-form .sub-span {
+        display: none;
+    }
+
+    #payment-form .time-lable {
+        font-size: 14px;
+    }
+
+    #payment-form label {
+        transform: translateY(10px);
+        margin: 10px 0 10px 0;
+    }
+
+    #payment-form input[type="text"] {
+        /* margin: -10px 0px; */
+        margin: -11px 0 5px 0px;
+    }
+
+    #payment-form .plus-span::after {
+        left: 5%;
+        top: 35%;
+    }
+
+    #payment-form .row:nth-child(4) input.payment {
+
+        /* margin: 5px 0; */
+    }
+
+    #payment-form .mail-phone label {
+        transform: none;
+    }
+
+    #payment-form input.send-email {
+        margin-top: 15px;
+    }
+
+    #payment-form article.save-number button {
+        width: 100%;
+        display: block;
+    }
+
+    #payment-form article.save-number span {
+        width: auto;
+        display: block;
+        margin: 0;
+        font-size: unset;
+    }
+
+    /* ------form------- */
+
+
+    /* ------aside------- */
+    .accordion {
+        height: 420px;
+        margin-top: 30px;
+    }
+
+    .fa-chevron-down {
+        float: left;
+    }
+
+    .fa-chevron-down:before {
+        transform: none !important;
+    }
+
+    .accordion .card-header button {
+        overflow: auto;
+    }
+
+    /* ...keypad..... */
+
+    .keypad {
+        left: 10%;
+        top: 69%;
+    }
+    .keypad1 {
+        left: 49%;
+        top: 114.5%;
+    }
+
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+    /* ------header------- */
+    header {
+        /* background-color: green; */
+    }
+
+    header .box-price {
+        display: none;
+    }
+
+    article .box-irancel-sadad {
+        display: none;
+        margin: 0 auto;
+    }
+
+    /* ------form------- */
+    main section article:nth-child(1) {
+        display: none;
+    }
+    #payment-form .sub-span {
+        display: none;
+    }
+
+    #payment-form .time-lable {
+        font-size: 14px;
+    }
+
+    #payment-form label {
+        transform: translateY(10px);
+        margin: 10px 0 10px 0;
+    }
+
+    #payment-form input[type="text"] {
+        margin: -11px 0 5px 0px;
+    }
+
+    main section article:nth-child(3) h3::before {
+        left: 95%;
+    }
+
+    #payment-form .plus-span::after {
+        left: 4%;
+        top: 33%;
+    }
+
+    #payment-form .credit-card-span::after {
+        right: 91%;
+    }
+
+    #payment-form .keyboard-span::after {
+        right: 91%;
+    }
+
+    #payment-form .board-span::before {
+        left: 53%;
+        top: 25%;
+    }
+
+    #payment-form .refresh-span::after {
+        left: 5%;
+    }
+
+    #payment-form .row:nth-child(4) input.payment {
+
+        /* margin: 5px 0; */
+    }
+
+    #payment-form .mail-phone label {
+        transform: none;
+    }
+
+    #payment-form input.send-email {
+        margin-top: 15px;
+    }
+
+    #payment-form article.save-number button {
+        width: 100%;
+        display: block;
+    }
+
+    #payment-form article.save-number span {
+        width: auto;
+        display: block;
+        margin: 0;
+        font-size: unset;
+    }
+
+    /* ------form------- */
+
+
+    /* ------aside------- */
+    .accordion {
+        height: 400px;
+        margin-top: 30px;
+    }
+
+    .fa-chevron-down {
+        float: left;
+    }
+
+    .fa-chevron-down:before {
+        transform: none !important;
+    }
+
+    .accordion .card-header button {
+        overflow: auto;
+    }
+
+    /* ...keypad..... */
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+
+    /* ....header..... */
+    header {
+        /* background-color: blue; */
+    }
+
+    header .box-price {
+        display: none;
+    }
+
+    article .box-irancel-sadad {
+        display: none;
+        margin: 0 auto;
+    }
+
+    /* ------form------- */
+    #payment-form .sub-span {
+
+        font-size: 12px;
+    }
+    #payment-form .time-lable {
+     font-size: 12px;
+    }
+   
+    #payment-form input[type="text"] {
+        /* margin: -11px 0 5px 0px; */
+    }
+
+    main section article:nth-child(3) h3::before {
+        top: 95%;
+    }
+
+    #payment-form .plus-span::after {
+        font-size: 20px;
+        left: 4%;
+        top: 40%;
+    }
+
+    #payment-form .credit-card-span::after {
+        font-size: 20px;
+        right: 81%;
+        top: 15%;
+    }
+
+    #payment-form .keyboard-span::after {
+        font-size: 20px;
+        right: 81%;
+        top: 11%;
+    }
+
+    #payment-form .board-span::before {
+        font-size: 20px;
+        left: 54%;
+        top: 26%;
+    }
+
+    #payment-form .refresh-span::after {
+        font-size: 20px;
+        top: 15%;
+        left: 12%;
+    }
+
+    #payment-form article.save-number label {
+        font-size: 10px;
+    }
+
+    #payment-form article.save-number span {
+        width: auto;
+        margin: 11px -2px;
+        font-size: 11px;
+    }
+
+    /* ------form------- */
+
+    /* ------aside------- */
+    .accordion {
+        height: 400px;
+        /* border: 4px solid red; */
+        margin-top: 30px;
+    }
+
+    .fa-chevron-down {
+        float: left;
+    }
+
+    .fa-chevron-down:before {
+        transform: none !important;
+    }
+
+    .accordion .card-header button {
+        overflow: auto;
+    }
+
+    /* ...keypad..... */
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+    /* ----header------ */
+    header {
+        /* background-color: yellow; */
+    }
+
+    header .box-price {
+        display: none;
+    }
+
+    article .box-irancel-sadad {
+        display: none;
+    }
+
+    /* ------form------- */
+    #payment-form .sub-span {
+
+        font-size: 12px;
+    }
+
+    #payment-form .time-lable {
+        font-size: 11px;
+    }
+     #payment-form .time-span span {
+         width: 20px;
+         height: 38px;
+         display: inline-block;
+         padding: 5px;
+         background-color: #FAFAFA;
+         border-radius: 8px;
+     }
+    #payment-form .row:nth-child(2) {
+        margin-top: 20px;
+    }
+
+    #payment-form input.payment {
+        font-size: 13px;
+    }
+
+    #payment-form input[type="button"] {
+        font-size: 13px;
+    }
+
+    main section article:nth-child(3) h3::before {
+        font-size: 18px;
+        left: 88%;
+    }
+
+    #payment-form .plus-span::after {
+        font-size: 18px;
+        left: 4%;
+        top: 43%;
+    }
+
+    #payment-form .credit-card-span::after {
+        font-size: 18px;
+        right: 82%;
+        top: 22%;
+    }
+
+    #payment-form .keyboard-span::after {
+        font-size: 18px;
+        right: 82%;
+        top: 12%;
+    }
+
+    #payment-form .board-span::before {
+        font-size: 18px;
+        left: 53%;
+        top: 31%;
+    }
+
+    #payment-form .refresh-span::after {
+        font-size: 18px;
+        top: 15%;
+        left: 11%;
+    }
+
+    #payment-form input.send-email {
+        font-size: 13px;
+    }
+
+    #payment-form article.save-number button {
+        width: 100px;
+    }
+
+    #payment-form article.save-number span {
+
+        margin: 11px -8px;
+        font-size: 9px
+    }
+
+    /* ------form------- */
+    /* ------aside------- */
+
+    .accordion #headingTwo .fa-chevron-down::before {
+        transform: translateX(-40px) !important;
+    }
+
+    .accordion #headingOne .fa-chevron-down::before {
+        top: 34%;
+        transform: translate(-156px, -22px) !important;
+    }
+
+    .accordion #headingThree .fa-chevron-down::before {
+        transform: translateX(-40px);
+    }
+}
+@media screen and (max-width: 394px){
+
+    .keypad{
+        left: 13%;
+        top: 75%;
+    }
+    .keypad1{
+        position: absolute;
+        top: 120%;
+        left: 48%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    header {
+        /* background-color: pink; */
+    }
+
+    header .box-price {
+        display: none;
+    }
+
+    article .box-irancel-sadad {
+        display: none;
+    }
+
+    main section article .box-price {
+        display: block;
+    }
+}
+div.credit-container {
+    width: 92%;
+    background-color: #FAC979;
+    padding: 0px 0 1px 0px;
+    position: absolute;
+    z-index: 77;
+    transform: translateY(11px);
+    border-radius: 8px;
+    display: none;
+}
+div.credit-item{
+    cursor: pointer;
+    background-color: white;
+    width: 98%;
+    height: 40px;
+    border-radius: 12px;
+    margin: 2px;
+}
+
